@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBABASHMANAL</title>
+</head>
+<body>
+    <h1>WEBSITE FOR BOBA BASH BY MANAL</h1>
+    <p>Enter a Number to be displayed</p>
+    <textarea id="inputnum" placeholder="..."></textarea>
+    <br>
+    <button id="submitbutton">Enter</button>
+    <br>
+
+
+    <br>
+    <output id="placeholder">Number:</output>
+    <script>
+        const inputnum= document.getElementById('inputnum')
+        const submitbtn=document.getElementById('submitbutton')
+        const placeholder=document.getElementById('placeholder')
+    
+        submitbtn.addEventListener('click', function() {
+            const inputValue=inputnum.value;
+            placeholder.textContent="Number: "+inputValue;
+        });
+    </script>
+     <style>
+        body {
+            background-color: rgb(10, 10, 43);
+            color: antiquewhite;
+        }
+        h1 {
+            color: antiquewhite;
+        }
+        p {
+            color: bisque;
+        }
+        
+     </style>
+     <br><br>
+     <img src="star444.jfif" width="350">
+     <img src="poppy1.png" width="350">
+     <img src="star2.jfif" width="350">
+     
+     
+</body>
+</html>
